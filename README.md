@@ -206,7 +206,79 @@ git switch main
 git merge dev
 git log --oneline --graph
 ```
+---
+## 🧑‍🤝‍🧑 17. Clonar um repositório
+> Clonar um repositório remoto do GitHub para sua máquina
+```bash
+git clone https://github.com/usuario/repositorio.git
+```
+---
+## ➕18. Preparar alterações
+> Adicionar arquivos novos ou modificados
+```
+git add .
+```
+#### ou
+```
+git add nome_arquivo
+```
+---
+## 🛟 19. Salvar alterações
+> Registra oficialmente as alterações no histórico do projeto.
+```
+git commit -m "Mensagem explicando o que mudou"
+```
+---
+## 📨 20. Enviar
+> Enviar as alterações locais para o repositório no GitHub
+```
+git push origin main #Fazer a primeira vez
+```
+#### Depois
+```
+git push
+```
+---
+## 🤝 Ferramenta de auxilio: GitFluence AI
+### O GitFluence é uma ferramenta online que ajuda a gerar comandos Git a partir de descrições em linguagem natural.
 
+#### Por exemplo, você pode digitar:
+```
+“Criar um novo branch e mudar para ele”
+```
+#### e o site mostrará o comando correspondente:
+> git checkout -b nome-do-branch
+---
+## 👥 Como adicionar colaboradores ao repositório privado
+> Acesse seu repositório no GitHub.
+>
+> Abra as configurações do repositório.
+> 
+> Dentro do repositório desejado, clique na aba “Settings” (Configurações).
+>
+> Vá até a seção de acesso.
+> 
+> No menu lateral esquerdo, clique em “Collaborators” ou “Manage access” (Gerenciar acesso).
+>
+> Adicione um novo colaborador.
+> 
+> Clique no botão “Add people”.
+>
+> Procure o usuário.
+> 
+> Digite o nome de usuário ou e-mail da pessoa que você quer adicionar e selecione-a na lista que aparece.
+
+> Defina as permissões.
+> 
+> Escolha o tipo de acesso:
+* Read → Apenas visualiza o repositório.
+* Write → Pode enviar (push) alterações.
+* Admin → Controle total sobre o repositório.
+>
+> Envie o convite.
+>
+> Clique em “Add collaborator”.
+> O colaborador receberá um convite por e-mail ou no GitHub, e precisará aceitar o convite para começar a colaborar.
 ---
 
 ## 📘 Créditos
@@ -217,4 +289,4 @@ ministrada por *Anderson R. M. Gomes* 🧑‍🏫
 ---
 
 **🚀 Próximos passos:**  
-Na próxima aula, você aprenderá a conectar este repositório local ao GitHub com os comandos `git remote`, `git push` e `git pull`.
+Na próxima aula, você aprenderá a conectar este repositório local ao GitHub com os comandos `git remote`, `git push` e `git pull`.q
